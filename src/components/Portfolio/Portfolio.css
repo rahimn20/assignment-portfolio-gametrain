@@ -1,0 +1,45 @@
+.portfolio-wrapper {
+  background-color: #0b0952;
+  padding: 0 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+.portfolio-heading {
+  color: #fff;
+  font-size: 60px;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 5px;
+  padding-top: 100px;
+  margin: 0;
+}
+
+.images-wrap {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.left-imgs {
+  flex: 1;
+  margin-top: 300px;
+  margin-right: 5px;
+}
+
+.right-imgs {
+  flex: 1;
+}
+
+.see-more {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 2px;
+  /* padding-top: 100px; */
+  padding-bottom: 40px;
+  margin: 0;
+  text-decoration: none;
+  margin-left: auto;
+}
