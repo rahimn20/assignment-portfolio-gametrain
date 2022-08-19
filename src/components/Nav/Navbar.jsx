@@ -1,6 +1,6 @@
 import React from "react";
 import "./Navbar.css";
-import Logo from "../../assets/logo.svg";
+import Logo from "../../assets/Follio.png";
 import Button from "@mui/material/Button";
 
 function Navbar() {

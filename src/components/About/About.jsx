@@ -1,7 +1,10 @@
 import React from "react";
 import "./About.css";
 import AboutIllustration from "../../assets/AboutIllustration.PNG";
-import Maintenance from "../../assets/maintenance.png";
+import Skills from "../../assets/skills.svg";
+import Services from "../../assets/services.svg";
+import Social from "../../assets/social.svg";
+import Awards from "../../assets/awards.svg";
 // import Button from "@mui/material/Button";
 import AboutContents from "./AboutContents";
 
@@ -22,13 +25,49 @@ function About() {
 
   const skills = (
     <AboutContents
-      title="This Tab is under Maintenance"
+      title="Skills Tab is under development"
       para="
   Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor
   alias consectetur, quaerat perferendis, repellendus illum
   totam esse blanditiis neque doloribus quod tempora fuga ullam.
   Voluptas nemo laborum quas eveniet hic?"
-      img={Maintenance}
+      img={Skills}
+    />
+  );
+
+  const services = (
+    <AboutContents
+      title="Services Tab is under development"
+      para="
+  Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor
+  alias consectetur, quaerat perferendis, repellendus illum
+  totam esse blanditiis neque doloribus quod tempora fuga ullam.
+  Voluptas nemo laborum quas eveniet hic?"
+      img={Services}
+    />
+  );
+
+  const social = (
+    <AboutContents
+      title="Social Tab is under development"
+      para="
+  Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor
+  alias consectetur, quaerat perferendis, repellendus illum
+  totam esse blanditiis neque doloribus quod tempora fuga ullam.
+  Voluptas nemo laborum quas eveniet hic?"
+      img={Social}
+    />
+  );
+
+  const award = (
+    <AboutContents
+      title="Awards Tab is under development"
+      para="
+  Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor
+  alias consectetur, quaerat perferendis, repellendus illum
+  totam esse blanditiis neque doloribus quod tempora fuga ullam.
+  Voluptas nemo laborum quas eveniet hic?"
+      img={Awards}
     />
   );
 
@@ -36,12 +75,11 @@ function About() {
     "About",
     "Skills",
     "Services",
-    "Services",
     "Social Media",
     "Awards",
   ];
 
-  const tabContents = [about, skills, skills, skills, skills, skills];
+  const tabContents = [about, skills, services, social, award];
 
   return (
     <>

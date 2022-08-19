@@ -4,7 +4,7 @@
   /* background-color: #0b0952; */
   /* background-color: #f4f7f9; */
   /* height: 1200px; */
-  padding: 0 100px;
+  padding: 0 200px;
   display: flex;
   /* flex-direction: row; */
   justify-content: center;
@@ -21,12 +21,13 @@
 
 .h2-1 {
   color: #fff;
-  font-size: 90px;
+  font-size: 85px;
   font-weight: 700;
-  font-family: "Poppins", sans-serif;
+  font-family: "Now-Bold";
   letter-spacing: 5px;
   /* padding-top: 150px; */
   margin: 0;
+  margin-bottom: 40px;
 }
 
 span {
@@ -37,10 +38,12 @@ span {
   color: white;
   width: 90%;
   /* margin: 420px 0 0 90px; */
-  font-size: 20px;
-  font-weight: 500;
+  font-size: 30px;
+  font-weight: 600;
+  font-family: "Now-Light";
   letter-spacing: 2.5px;
   text-align: justify;
+  margin-bottom: 50px;
 }
 
 .socials {
@@ -52,14 +55,21 @@ span {
 }
 
 .icons {
-  font-size: 24px;
-  border-radius: 5px;
-  padding: 12px 16px;
+  font-size: 30px;
+  border-radius: 10px;
+  width: 60px;
+  height: 60px;
+  /* display: block; */
+  text-align: center;
+  padding-top: 12px;
+  /* margin: 50px auto; */
 }
 
 .icon {
   border: 1.5px solid #9b3475;
   color: #9b3475;
+  
+
 }
 
 .icon2 {
@@ -78,7 +88,7 @@ span {
 
 /*fixing image height issue */
 .head-img {
-  min-height: max(80vh, 500px);
+  min-height: max(80vh, 780px);
 
   position: relative;
 }
@@ -86,7 +96,8 @@ span {
 .img-2 {
   /* border: 1px solid black; */
   /* height: px; */
-  width: 90%;
+  width: 115%;
   position: absolute;
   bottom: 0;
+  /* padding-right: 50px; */
 }

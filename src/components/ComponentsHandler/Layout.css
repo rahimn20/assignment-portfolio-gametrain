@@ -1,9 +1,58 @@
+@font-face {
+	font-family: "Now-Black";
+	src: url("C:/Users/ADMIN/Desktop/assignment-portfolio-gametrain-main/src/assets/Now Font/Now-Black.otf");
+}
+
+@font-face {
+	font-family: "Now-Bold";
+	src: url("C:/Users/ADMIN/Desktop/assignment-portfolio-gametrain-main/src/assets/Now Font/Now-Bold.otf");
+}
+
+@font-face {
+	font-family: "Now-Light";
+	src: url("C:/Users/ADMIN/Desktop/assignment-portfolio-gametrain-main/src/assets/Now Font/Now-Light.otf");
+}
+
+@font-face {
+	font-family: "Now-Medium";
+	src: url("C:/Users/ADMIN/Desktop/assignment-portfolio-gametrain-main/src/assets/Now Font/Now-Medium.otf");
+}
+
+@font-face {
+	font-family: "Now-Regular";
+	src: url("C:/Users/ADMIN/Desktop/assignment-portfolio-gametrain-main/src/assets/Now Font/Now-Regular.otf");
+}
+
+@font-face {
+	font-family: "Now-Thin";
+	src: url("C:/Users/ADMIN/Desktop/assignment-portfolio-gametrain-main/src/assets/Now Font/Now-Thin.otf");
+}
+
+
 body {
   /* padding: 0.5rem 3.5rem; */
   margin: 0;
   padding: 0;
   background-color: #0b0952;
   scroll-behavior: smooth;
-  font-family: "Inter", sans-serif;
+  font-family: "Now-Regular";
   /* overflow: hidden; */
+}
+
+.scroll-float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#FE3E57;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+	/* box-shadow: 2px 2px 3px #999; */
+}
+
+.arrow-up{
+  font-size: 20px;
+	margin-top:20px;
 }

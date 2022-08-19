@@ -1,6 +1,6 @@
 .about-wrapper {
   background-color: #070640;
-  padding: 0 100px;
+  padding: 0 200px;
 }
 
 .about-container {
@@ -17,7 +17,7 @@
   color: #fff;
   font-size: 60px;
   font-weight: 700;
-  font-family: "Poppins", sans-serif;
+  font-family: "Now-Bold";
   letter-spacing: 5px;
   padding-top: 100px;
   margin: 0;
@@ -32,7 +32,7 @@
 
 .about-img {
   padding-top: 100px;
-  max-width: 650px;
+  max-width: 500px;
   width: 100%;
   object-fit: cover;
 }
@@ -49,7 +49,7 @@
   color: #fff;
   font-size: 55px;
   font-weight: 600;
-  font-family: "Poppins", sans-serif;
+  font-family: "Now-Bold";
   /* letter-spacing: 5px; */
   padding-top: 100px;
   padding-bottom: 40px;
@@ -65,7 +65,7 @@
   /* letter-spacing: 3px; */
   line-height: 1.5;
   /* text-align: justify; */
-  font-family: "Poppins", sans-serif;
+  font-family: "Now-Light";
   padding-bottom: 30px;
 }
 
